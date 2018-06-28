@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void do_my_work(View view){
         int i = 10;
         Log.e("TAG", "This is my code");
+        Toast.makeText(this, "Salam", Toast.LENGTH_LONG).show();
     }
 
 }
